@@ -1,138 +1,342 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidade – PartiuParaguai</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Política de Privacidade, aviso legal e fontes oficiais do aplicativo PartiuParaguai.">
+  <title>Política de Privacidade – PartiuParaguai</title>
 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 40px;
-            line-height: 1.8;
-            color: #333;
-            background: #fafafa;
-        }
+  <style>
+    :root {
+      --primary: #229447;
+      --primary-dark: #176b35;
+      --text: #273142;
+      --muted: #667085;
+      --background: #f4f7f6;
+      --card: #ffffff;
+      --border: #dfe7e2;
+      --warning-bg: #fff7e6;
+      --warning-border: #d99024;
+      --warning-text: #6f4710;
+      --link-bg: #eef8f1;
+    }
 
-        h1 {
-            color: #1565C0;
-        }
+    * {
+      box-sizing: border-box;
+    }
 
-        h2 {
-            margin-top: 35px;
-            color: #1565C0;
-        }
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--background);
+    }
 
-        strong {
-            color: #000;
-        }
-    </style>
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 36px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 8px 24px rgba(20, 52, 35, 0.08);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      color: var(--primary-dark);
+      font-size: clamp(1.8rem, 5vw, 2.5rem);
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 10px;
+      padding-bottom: 7px;
+      color: var(--primary-dark);
+      border-bottom: 1px solid var(--border);
+      font-size: 1.3rem;
+    }
+
+    p, li {
+      color: var(--text);
+    }
+
+    .updated {
+      margin-top: 0;
+      color: var(--muted);
+    }
+
+    .official-warning {
+      margin: 26px 0;
+      padding: 20px;
+      background: var(--warning-bg);
+      border: 2px solid var(--warning-border);
+      border-radius: 14px;
+      color: var(--warning-text);
+    }
+
+    .official-warning h2 {
+      margin: 0 0 8px;
+      padding: 0;
+      color: var(--warning-text);
+      border: 0;
+      font-size: 1.15rem;
+      text-transform: uppercase;
+    }
+
+    .official-warning p {
+      margin: 8px 0 0;
+      color: var(--warning-text);
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .sources {
+      display: grid;
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .sources li {
+      margin: 0;
+    }
+
+    .sources a {
+      display: block;
+      padding: 14px 16px;
+      color: var(--primary-dark);
+      background: var(--link-bg);
+      border: 1px solid #cfe8d7;
+      border-radius: 10px;
+      font-weight: 700;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .sources a:hover,
+    .sources a:focus {
+      text-decoration: underline;
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+    }
+
+    .source-url {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 0.83rem;
+      font-weight: 400;
+    }
+
+    .contact a {
+      color: var(--primary-dark);
+      font-weight: 700;
+    }
+
+    footer {
+      margin-top: 38px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 0;
+        background: var(--card);
+      }
+
+      main {
+        padding: 24px 20px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <main>
+    <h1>Política de Privacidade – PartiuParaguai</h1>
+    <p class="updated"><strong>Última atualização:</strong> 20 de julho de 2026</p>
 
-<h1>Política de Privacidade – PartiuParaguai</h1>
+    <p>
+      O aplicativo <strong>PartiuParaguai</strong> foi desenvolvido pela
+      <strong>Innovaqa Solutions</strong> para auxiliar viajantes no controle de compras,
+      na conversão de moedas e na simulação informativa de tributação em viagens ao Paraguai.
+    </p>
 
-<p><strong>Última atualização:</strong> 17 de julho de 2026</p>
+    <section class="official-warning" aria-labelledby="aviso-nao-oficial">
+      <h2 id="aviso-nao-oficial">Aplicativo não oficial</h2>
+      <p>
+        O PartiuParaguai é um aplicativo independente. Ele não representa, não possui vínculo,
+        não é afiliado, endossado, patrocinado, autorizado nem administrado pela Receita Federal
+        do Brasil, pelo Governo Federal ou por qualquer outra entidade governamental.
+      </p>
+      <p>
+        As informações sobre cotas, limites, tributação, bens permitidos, proibidos ou restritos
+        são disponibilizadas exclusivamente para fins informativos. Em caso de dúvida, divergência
+        ou desatualização, prevalecem sempre as informações publicadas pelos órgãos oficiais.
+      </p>
+    </section>
 
-<p>
-O aplicativo <strong>PartiuParaguai</strong> foi desenvolvido pela
-<strong>Innovaqa Solutions</strong> com o objetivo de auxiliar viajantes
-brasileiros no controle de compras realizadas no Paraguai, oferecendo
-conversão de moedas e simulação de tributação.
-</p>
+    <h2>1. Coleta de dados pessoais</h2>
+    <p>
+      O PartiuParaguai não coleta, transmite, armazena em servidores externos nem compartilha
+      dados pessoais dos usuários.
+    </p>
+    <p>O aplicativo não solicita:</p>
+    <ul>
+      <li>nome;</li>
+      <li>e-mail;</li>
+      <li>CPF;</li>
+      <li>número de telefone;</li>
+      <li>localização;</li>
+      <li>contatos;</li>
+      <li>fotos;</li>
+      <li>arquivos pessoais;</li>
+      <li>dados bancários;</li>
+      <li>qualquer outra informação pessoal identificável.</li>
+    </ul>
 
-<h2>1. Coleta de dados</h2>
+    <h2>2. Armazenamento local</h2>
+    <p>As informações cadastradas pelo usuário, como:</p>
+    <ul>
+      <li>compras registradas;</li>
+      <li>valores de cotações;</li>
+      <li>preferências e configurações do aplicativo;</li>
+    </ul>
+    <p>
+      são armazenadas exclusivamente no próprio dispositivo, por meio do armazenamento local
+      do Android. Esses dados não são enviados para servidores da Innovaqa Solutions.
+    </p>
+    <p>
+      A remoção do aplicativo ou a limpeza dos seus dados no dispositivo pode excluir
+      definitivamente essas informações.
+    </p>
 
-<p>O PartiuParaguai não coleta, transmite, armazena ou compartilha dados pessoais dos usuários.</p>
+    <h2>3. Compartilhamento de dados</h2>
+    <p>
+      O PartiuParaguai não vende, aluga, transfere nem compartilha informações pessoais com terceiros.
+    </p>
 
-<p>O aplicativo não solicita:</p>
+    <h2>4. Serviços de terceiros</h2>
+    <p>O aplicativo não utiliza serviços de:</p>
+    <ul>
+      <li>análise de comportamento ou Analytics;</li>
+      <li>publicidade;</li>
+      <li>rastreamento de usuários;</li>
+      <li>marketing;</li>
+      <li>coleta de dados pessoais.</li>
+    </ul>
+    <p>
+      O usuário pode abrir, por iniciativa própria, páginas oficiais externas da Receita Federal.
+      Ao acessar esses sites, aplicam-se as políticas de privacidade e os termos do respectivo órgão.
+    </p>
 
-<ul>
-<li>Nome</li>
-<li>E-mail</li>
-<li>CPF</li>
-<li>Número de telefone</li>
-<li>Localização</li>
-<li>Contatos</li>
-<li>Fotos</li>
-<li>Arquivos</li>
-<li>Dados bancários</li>
-<li>Qualquer outra informação pessoal.</li>
-</ul>
+    <h2>5. Conexão com a internet</h2>
+    <p>
+      As funcionalidades principais do PartiuParaguai foram desenvolvidas para funcionar offline.
+      O acesso à internet é necessário apenas quando o usuário decide abrir links externos,
+      como as fontes oficiais da Receita Federal.
+    </p>
 
-<h2>2. Armazenamento das informações</h2>
+    <h2>6. Finalidade dos cálculos e das informações</h2>
+    <p>
+      Conversões, totais, limites e simulações de tributação apresentados pelo aplicativo são
+      estimativas destinadas a auxiliar o planejamento do viajante. Eles não substituem declaração,
+      conferência, fiscalização, orientação profissional ou decisão de autoridade aduaneira.
+    </p>
+    <p>
+      Regras governamentais, cotações e procedimentos podem mudar sem aviso. O usuário deve conferir
+      as informações atualizadas nas fontes oficiais antes da viagem ou da entrada no Brasil.
+    </p>
 
-<p>As informações cadastradas pelo usuário, como:</p>
+    <h2>7. Fontes oficiais das informações governamentais</h2>
+    <p>
+      As informações governamentais exibidas ou utilizadas como referência pelo aplicativo são
+      baseadas em páginas públicas da Receita Federal do Brasil:
+    </p>
 
-<ul>
-<li>compras realizadas;</li>
-<li>valores das cotações;</li>
-<li>configurações do aplicativo;</li>
-</ul>
+    <ul class="sources">
+      <li>
+        <a href="https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais"
+           target="_blank" rel="noopener noreferrer">
+          Guia do Viajante – Receita Federal
+          <span class="source-url">gov.br/receitafederal/.../viagens-internacionais</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil"
+           target="_blank" rel="noopener noreferrer">
+          Entrada no Brasil
+          <span class="source-url">gov.br/receitafederal/.../entrada-no-brasil</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/cota-de-isencao-duty-free-e-bagagem-tributavel"
+           target="_blank" rel="noopener noreferrer">
+          Isenções, cotas e limites quantitativos
+          <span class="source-url">gov.br/receitafederal/.../cota-de-isencao-duty-free-e-bagagem-tributavel</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/bens-a-declarar-tributacao-e-calculo-do-imposto"
+           target="_blank" rel="noopener noreferrer">
+          Bens a declarar, tributação e cálculo do imposto
+          <span class="source-url">gov.br/receitafederal/.../bens-a-declarar-tributacao-e-calculo-do-imposto</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/viagens-internacionais/guia-do-viajante/entrada-no-brasil/proibicoes-restricoes"
+           target="_blank" rel="noopener noreferrer">
+          Proibições e restrições
+          <span class="source-url">gov.br/receitafederal/.../proibicoes-restricoes</span>
+        </a>
+      </li>
+    </ul>
 
-<p>
-são armazenadas exclusivamente no próprio dispositivo utilizando o armazenamento
-local do Android.
-</p>
+    <h2>8. Segurança</h2>
+    <p>
+      Como os registros do usuário permanecem no próprio dispositivo, cabe ao usuário proteger
+      o acesso ao aparelho por senha, biometria ou outros recursos de segurança disponíveis.
+    </p>
 
-<p>Esses dados não são enviados para servidores externos.</p>
+    <h2>9. Privacidade de crianças e adolescentes</h2>
+    <p>
+      O aplicativo não foi desenvolvido para coletar dados de crianças ou adolescentes e não realiza
+      conscientemente qualquer coleta de informações pessoais desse público.
+    </p>
 
-<h2>3. Compartilhamento de dados</h2>
+    <h2>10. Alterações desta política</h2>
+    <p>
+      Esta Política de Privacidade poderá ser atualizada para refletir mudanças no aplicativo,
+      em requisitos legais ou nas políticas das lojas de aplicativos. A data da última atualização
+      será informada no início desta página.
+    </p>
 
-<p>O PartiuParaguai não compartilha informações com terceiros.</p>
+    <h2>11. Contato</h2>
+    <p class="contact">
+      Em caso de dúvidas sobre esta Política de Privacidade ou sobre o aplicativo, entre em contato:
+      <br>
+      <strong>Innovaqa Solutions</strong><br>
+      <a href="mailto:innovaqasolutions@gmail.com">innovaqasolutions@gmail.com</a>
+    </p>
 
-<h2>4. Serviços de terceiros</h2>
-
-<p>O aplicativo não utiliza:</p>
-
-<ul>
-<li>serviços de análise (Analytics);</li>
-<li>publicidade;</li>
-<li>rastreamento;</li>
-<li>ferramentas de marketing;</li>
-<li>serviços de coleta de dados.</li>
-</ul>
-
-<h2>5. Conexão com a internet</h2>
-
-<p>
-O aplicativo foi desenvolvido para funcionar integralmente offline.
-</p>
-
-<p>
-O acesso à internet não é necessário para utilização de suas funcionalidades principais.
-</p>
-
-<h2>6. Segurança</h2>
-
-<p>
-Como nenhuma informação é enviada para servidores externos,
-todos os dados permanecem armazenados apenas no dispositivo do usuário.
-</p>
-
-<h2>7. Alterações desta Política</h2>
-
-<p>
-Esta Política de Privacidade poderá ser atualizada futuramente para refletir
-novas funcionalidades do aplicativo.
-</p>
-
-<h2>8. Contato</h2>
-
-<p>
-Caso tenha dúvidas sobre esta Política de Privacidade, entre em contato:
-</p>
-
-<p>
-<strong>Innovaqa Solutions</strong><br><br>
-
-📧 innovaqasolutions@gmail.com
-</p>
-
+    <footer>
+      © 2026 PartiuParaguai – Innovaqa Solutions.<br>
+      Aplicativo independente, sem vínculo com a Receita Federal do Brasil ou com o Governo Federal.
+    </footer>
+  </main>
 </body>
-
 </html>
