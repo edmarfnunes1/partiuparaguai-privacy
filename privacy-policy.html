@@ -248,8 +248,16 @@
   <li>identificadores do aplicativo e da instalação/dispositivo, incluindo identificadores gerados pelo SDK;</li>
   <li>versão do aplicativo, sistema operacional, modelo do aparelho, idioma, fuso horário e características técnicas da tela;</li>
   <li>informações técnicas e de conexão, incluindo endereço IP associado às solicitações de rede e informações de rede/operadora disponíveis ao SDK;</li>
-  <li>eventos técnicos de configuração do SDK, como alterações das opções de mensuração.</li>
+  <li>localização aproximada que pode ser inferida pela Meta a partir do endereço IP; essa integração não solicita acesso à localização exata por GPS;</li>
+  <li>eventos técnicos de configuração do SDK, como alterações das opções de mensuração;</li>
+  <li>registros de falhas, erros e diagnósticos técnicos que os recursos de instrumentação do SDK podem gerar, incluindo rastros de execução e informações sobre travamentos.</li>
 </ul>
+<p>
+  Os registros de falhas e os diagnósticos são utilizados para análise de problemas técnicos,
+  estabilidade e funcionamento da integração. O tratamento desses dados pela integração depende
+  da ativação opcional da mensuração e dos recursos habilitados no SDK. A localização aproximada,
+  os eventos de interação e os identificadores são utilizados para análise e mensuração de publicidade.
+</p>
 <p>
   A configuração adotada desativa a coleta do identificador de publicidade Android (Advertising ID),
   o registro automático de metadados e o envio de dados para melhoria de produto do SDK.
